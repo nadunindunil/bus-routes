@@ -9,11 +9,11 @@ import {
 
 const MapWithAKmlLayer = withScriptjs(withGoogleMap((props) =>
   <GoogleMap
-    defaultZoom={9}
+    defaultZoom={12}
     defaultCenter={{ lat: 6.9270786, lng: 79.861243 }}
   >
     <KmlLayer
-      url= {"https://raw.githubusercontent.com/nadunindunil/bus-routes/master/kml/bus_map.kml"}
+      url= "https://raw.githubusercontent.com/nadunindunil/bus-routes/master/src/kml/bus_map.kml"
       options={{ preserveViewport: true }}
     />
   </GoogleMap>
@@ -44,7 +44,7 @@ class Map extends Component {
       return (
         <div>
             <MapWithAKmlLayer
-            googleMapURL = "https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
+            googleMapURL = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAcBZVGt3vYRkB9bO4CfcifI1dqK72cuwQ&v=3.exp&libraries=geometry,drawing,places"
             loadingElement ={ <div style={{ height: `100%` }} />}
             containerElement= { <div style={{ height: this.state.height }} />}
             mapElement = {<div style={{ height: `100%` }} />}
