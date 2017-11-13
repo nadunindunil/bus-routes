@@ -10,10 +10,10 @@ import {
 const MapWithAKmlLayer = withScriptjs(withGoogleMap((props) =>
   <GoogleMap
     defaultZoom={9}
-    defaultCenter={{ lat: 41.9, lng: -87.624 }}
+    defaultCenter={{ lat: 6.9270786, lng: 79.861243 }}
   >
     <KmlLayer
-      url="http://googlemaps.github.io/js-v2-samples/ggeoxml/cta.kml"
+      url= {"https://raw.githubusercontent.com/nadunindunil/bus-routes/master/kml/bus_map.kml"}
       options={{ preserveViewport: true }}
     />
   </GoogleMap>

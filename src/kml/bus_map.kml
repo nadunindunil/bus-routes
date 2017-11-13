@@ -47,7 +47,7 @@
     </StyleMap>
     <Style id="line-1267FF-5000-nodesc-normal">
       <LineStyle>
-        <color>501478F0</color>
+        <color>50E67800</color>
         <width>5</width>
       </LineStyle>
       <BalloonStyle>
@@ -56,7 +56,7 @@
     </Style>
     <Style id="line-1267FF-5000-nodesc-highlight">
       <LineStyle>
-        <color>501478F0</color>
+        <color>5014003C</color>
         <width>7.5</width>
       </LineStyle>
       <BalloonStyle>
