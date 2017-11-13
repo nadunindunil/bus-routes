@@ -3,81 +3,26 @@
   <Document>
     <name>bus_map</name>
     <description/>
-    <Style id="icon-1899-DB4436-nodesc-normal">
-      <IconStyle>
-        <color>ff3644db</color>
-        <scale>1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1899-DB4436-nodesc-highlight">
-      <IconStyle>
-        <color>ff3644db</color>
-        <scale>1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1899-DB4436-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-1267FF-5000-nodesc-normal">
+    
+    <Style id="blueLine">
       <LineStyle>
-        <color>50E67800</color>
-        <width>5</width>
+        <color>ffff0000</color>
+        <width>4</width>
       </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="line-1267FF-5000-nodesc-highlight">
+    
+    <Style id="redLine">
       <LineStyle>
-        <color>5014003C</color>
-        <width>7.5</width>
+        <color>ff0000ff</color>
+        <width>4</width>
       </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="line-1267FF-5000-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
+
     <Folder>
       <name>Kottawa-Pettah (138)</name>
       <Placemark>
-        <name>Directions from Kottawa Town, Pannipitiya, Western Province to Pettah, Colombo, Western Province</name>
-        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <name>Kottawa-Pettah (138)</name>
+        <styleUrl>#blueLine</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -984,30 +929,13 @@
           </coordinates>
         </LineString>
       </Placemark>
-      <Placemark>
-        <name>Kottawa Town, Pannipitiya, Western Province</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            79.9654206,6.8411611,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Pettah, Colombo, Western Province</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            79.8529261,6.936811,0
-          </coordinates>
-        </Point>
-      </Placemark>
     </Folder>
+
     <Folder>
       <name>Kottawa Town - Mt. Lavinia (255)</name>
       <Placemark>
-        <name>Directions from Kottawa Town, Pannipitiya, Western Province to Mt. Lavinia Bus Stand, A2, Dehiwala-Mount Lavinia, Western Province</name>
-        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <name>Kottawa Town - Mt. Lavinia (255)</name>
+        <styleUrl>#redLine</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -1921,24 +1849,8 @@
           </coordinates>
         </LineString>
       </Placemark>
-      <Placemark>
-        <name>Kottawa Town, Pannipitiya, Western Province</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            79.9654206,6.8411611,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Mt. Lavinia Bus Stand, A2, Dehiwala-Mount Lavinia, Western Province</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            79.8672515,6.8331957,0
-          </coordinates>
-        </Point>
-      </Placemark>
     </Folder>
+
   </Document>
+
 </kml>
