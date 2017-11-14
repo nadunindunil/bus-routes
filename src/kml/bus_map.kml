@@ -23,9 +23,8 @@
       </LineStyle>
     </Style>
 
-    <name>Kottawa-Pettah (138)</name>
     <Placemark>
-      <name>Kottawa-Pettah (138)</name>
+      <name>Kottawa - Pettah (138)</name>
       <styleUrl>#blueLine</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
@@ -933,7 +932,6 @@
         </coordinates>
       </LineString>
     </Placemark>
-    <name>Kottawa Town - Mt. Lavinia (255)</name>
     <Placemark>
       <name>Kottawa Town - Mt. Lavinia (255)</name>
       <styleUrl>#redLine</styleUrl>
@@ -1850,7 +1848,6 @@
         </coordinates>
       </LineString>
     </Placemark>
-    <name>Homagama - Pettah (138)</name>
     <Placemark>
       <name>Homagama - Pettah (138)</name>
       <styleUrl>#greenLine</styleUrl>
